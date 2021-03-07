@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrap header-wrap">
+          <div class="wrap-logo">
+              <a class="logo-link" href="index.html"><img src="img/Group2.svg" width="44" height="38" alt="logo">
+            </a>
+              <button class="search"><img src="img/lupa.svg" width="26" height="26" alt="lupa">
+            </button>
+            </div>
+            <div class="account">
+              <button class="menu"><img src="img/menu.svg" width="32" height="23" alt="menu">
+              </button>
+              <div class="menu-overlay">
+              <nav class="nav">
+                <button class="menu-close-btn"><img src="img/Vectorkrestik.svg" alt=""></button>
+                <h1 class="nav-title-one">MENU</h1>
+                <div>
+                <h2 class="nav-title"><a href="#">MAN</a></h2>
+                <ul class="nav-menu">
+                  <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Denim</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                </ul>
+              </div>
+              <div>
+                <h2 class="nav-title"> <a href="product.html">WOMAN</a></h2>
+                <ul class="nav-menu">
+                  <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Jackets & Coats</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                </ul>
+              </div>
+                <div>
+                  <h2 class="nav-title"><a href="#">KIDS</a></h2>
+                  <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Jackets & Coats</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Polos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">T-Shirts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Shirts</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Bags</a></li>
+                  </ul>                
+                </div>
+                </nav> 
+              </div>
+              <script>
+                document.querySelector(".menu").onclick = function () {
+	document.querySelector(".menu-overlay").classList.add("menu-overlay-open");
+}
+
+document.querySelector(".menu-close-btn").onclick = function () {
+	document.querySelector(".menu-overlay").classList.remove("menu-overlay-open");
+}
+              </script>
+                <a class="login" href="Registration.html"><img src="img/shel.svg" width="29" height="29" alt="shel"></a>
+                <a class="cart" href="card.html"><img src="img/Vectorkorzinaprodukt.svg" alt="korzina"></a>
+            </div>
+        </div>
+    </header>
+    <section class="section-breadcrumb center">
+        <div class="breadcrumb breadcrumb-card">
+        <h3 class="arrivars">REGISTRATION</h3>
+        </div>
+      </section>
+    <section class="section-registrator center">
+        <div class="registrator">
+            <div class="shiping-address">
+                <h4 class="registrator-text">Your Name</h4>
+                <form class="registrator-form" action="#">
+                  <input class="registrator-field" type="text"  placeholder="First Name" required>
+                  <input class="registrator-field" type="text"  placeholder="Last Name" required>
+                  <div class="registrator-radio">
+                  <input class="registrator-radio-gender" type="radio" name="gender"> 
+                  <label>Male</label> 
+                  <input class="registrator-radio-gender" type="radio" name="gender"> 
+                  <label>Female</label> 
+                  </div>
+                  <h4 class="registrator-text">Login details</h4>
+                    <input class="registrator-field" type="email" placeholder="Email" required>  
+                    <input class="registrator-field" type="password" maxlength="25" size="40" placeholder="Password" required>
+                    <div class="registrator-p">
+                  <p class="registrator-p-text">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+                    </div>
+                  <button class="registrator-btn-sub" type="submit">JOIN NOW <img class="registrator-btn-strelka" src="img/Groupstrelkasub.svg" alt=""></button>
+                </form>
+                </div>
+            <div class="registrator-loyalty">
+                <h3 class="registrator-loyalty-h3">LOYALTY HAS ITS PERKS</h3>
+                <div class="registrator-loyalty-p">
+                <p>Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:</p>
+              </div>
+                <ul class="registrator-ul">
+                    <li><img class="registrator-li" src="img/Vectorgalka.svg" alt="">  15% off welcome offer</li>
+                    <li><img class="registrator-li" src="img/Vectorgalka.svg" alt="">  Free shipping, returns and exchanges on all orders</li>
+                    <li><img class="registrator-li" src="img/Vectorgalka.svg" alt="">  $10 off a purchase on your birthday</li>
+                    <li><img class="registrator-li" src="img/Vectorgalka.svg" alt="">  Early access to products</li>
+                    <li><img class="registrator-li" src="img/Vectorgalka.svg" alt="">  Exclusive offers & rewards</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+      
+      <section class="section-frame center">
+        <div class="frame-wrapper">
+          <div class="subcsribe-info">
+            <div class="intersect">
+              <a href="#"><img src="img/Intersect.svg" width="96" height="96" alt="Photo"></a>
+            </div>
+            <div class="intersect-text">
+              “Vestibulum quis porttitor dui! 
+              Quisque viverra nunc mi, a pulvinar purus condimentum“
+            </div>
+          </div>
+          <div class="subcsribe">
+            <div class="subcsribe-text">
+              <h3 class="select-text"><span class="letter">SUBSCRIBE</span> <br>
+                FOR OUR NEWLETTER AND PROMOTION</h3>
+            </div>
+            <form class="sub-form" action="#">
+              <input class="sub-mail" type="email" placeholder="Enter Your Email">
+              <input class="sub-knop" type="submit" value="Subscribe"> 
+            </form>
+          </div>
+        </div>
+      </section>
+    <footer class="footer center">
+      <div class="footer__wrapper">
+        <div class="footer__copy">
+        <span class="footer__copyright">© 2021 Brand All Rights Reserved.</span>
+      </div>
+        <div class="footer__socials">
+          <div class="footer__social mar">
+            <a href="#"><img src="img/facebook-f-brands.svg" width="32" height="32" alt="facebook"></a>
+          </div>
+          <div class="footer__social mar">
+            <a href="#"><img src="img/instagram-brands.svg" width="32" height="32" alt="instagram"></a>
+          </div>
+          <div class="footer__social mar">
+            <a href="#"><img src="img/pinterest-p-brands.svg" width="32" height="32" alt="pinterest"></a>
+          </div>
+          <div class="footer__social">
+            <a href="#"><img src="img/twitter-brands.svg" width="32" height="32" alt="twitter"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
